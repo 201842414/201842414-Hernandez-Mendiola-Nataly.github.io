@@ -1,0 +1,89 @@
+@charset "UTF-8";
+*{ margin: auto;
+   padding: 0px;
+ }
+header{
+	background-color:#F28177;
+	color: #FFFFFF;
+	height: auto;
+	font-family: 'Satisfy', cursive;
+	font-size: 100px;
+	text-align: center;
+} 
+body{
+	align-content: center;
+	background-color: #F2E635;
+	}
+.info{
+	width: 40%;
+	background-color: #F2811D;
+	padding: 40px;
+	margin-top: 30px;
+	
+}
+nav{
+	height: auto;
+	background-color: #ABE3EA;
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: center;
+	font-size: 25px;
+	
+}
+a:link{
+	color:#A64546;
+	font-weight: bolder;
+}
+a:visited{
+	color: #B5D6F0;
+	font-weight: bolder;
+}
+a:hover{
+	color: #C4A2DF;
+	font-weight: bolder;	
+}
+nav ul li{
+	display: inline-block;
+	margin-left: 10px;
+	padding: 23px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: auto;
+	color:#FFFFFF;
+	font-weight: bolder;
+	text-decoration: none;
+	list-style-type: none;
+}
+p{
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.container{
+	display: flex;	
+	background-color: #D93DAF;
+	width:60%;
+	align-items: center;
+	margin-top: 50px;
+	
+}
+.container>div{
+	padding: 40px;
+	
+	
+}
+.ti{
+	font-family: 'Satisfy', cursive;
+	font-size: 70px;
+}
+
+/* Color Theme Swatches in Hex */
+.Death-死-Muerte-1-hex { color: #D93DAF; }
+.Death-死-Muerte-2-hex { color: #F2E635; }
+.Death-死-Muerte-3-hex { color: #F2C230; }
+.Death-死-Muerte-4-hex { color: #F2811D; }
+.Death-死-Muerte-5-hex { color: #F28177; }
+
+
+
